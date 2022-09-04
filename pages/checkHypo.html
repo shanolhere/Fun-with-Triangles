@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fun with Triangles</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link href="/src/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <nav>
+      <h1>Sabiya</h1>
+      <a href="https://github.com/shanolhere">Github Profile</a>
+    </nav>
+
+    <header>
+      <h2>
+        Enter the lengths of sides of right angle triangle
+      </h2>
+      <a href="/index.html">Go To Home</a>
+      <div class="hypo-container">
+        <form>
+        <label class="label" for="length1">
+          <input
+            type="number"
+            class="length1"
+            placeholder="Enter length a"
+            min="0.0001"
+            step="0.00001"
+            required
+          />
+        </label>
+
+        <label class="label" for="length2">
+          <input
+            type="number"
+            class="length2"
+            placeholder="Enter length b"
+            min="0.0001"
+            step="0.00001"
+            required
+          />
+        </label>
+        <button type="submit" class="calculate2">Calculate</button>
+      </form>
+        <h3>Hypotenuse will be calculated and the result will be displayed here:</h3>
+        <p class="result"></p>
+      </div>
+    </header>
+
+    <footer class="footer container-fluid">
+      <h2 class="footer-heading">Connect with me</h2>
+      <ul class="footer-list">
+        <li class="footer-item">
+          <a class="footer-link" href="https://twitter.com/im__sabiya"
+            >Twitter</a
+          >
+        </li>
+        <li class="footer-item">
+          <a class="footer-link" href="https://www.instagram.com/im__sabiya/"
+            >Instagram</a
+          >
+        </li>
+        <li class="footer-item">
+          <a
+            class="footer-link"
+            href="https://www.linkedin.com/in/sabiyatabassum"
+            >LinkedIn</a
+          >
+        </li>
+        <li class="footer-item">
+          <a class="footer-link" href="mailto: sabiyatabassum99@gmail.com"
+            >Email</a
+          >
+        </li>
+        <li class="footer-item">
+          <a class="footer-link" href="https://github.com/sabiyatabassum"
+            >Github</a
+          >
+        </li>
+      </ul>
+    </footer>
+
+    <script src="./checkHypo.js"></script>
+  </body>
+</html>

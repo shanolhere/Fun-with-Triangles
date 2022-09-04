@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fun with Triangles</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link href="/src/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <nav>
+      <h1>Sabiya</h1>
+      <a href="https://github.com/shanolhere">Github Profile</a>
+    </nav>
+
+    <header class="container area-header">
+      <h2>
+        Calculate Area
+      </h2>
+      <p>Select an option below as per the data you have for a triangle</p>
+      <a href="/index.html">Go To Home</a>
+
+      <div class="radios">
+        <div class="radio">
+          <label class="label" for="calArea1">
+            <input
+              type="radio"
+              id="calArea1"
+              name="areaCalOption"
+              value="areaCalOption1"
+            />
+            If you have base and height length
+          </label>
+        </div>
+        <div class="radio">
+          <label class="label" for="calArea2">
+            <input
+              type="radio"
+              id="calArea2"
+              name="areaCalOption"
+              value="areaCalOption1"
+            />
+            If you have length of 3 sides</label
+          >
+        </div>
+        <div class="radio">
+          <label class="label" for="calArea3">
+            <input
+              type="radio"
+              id="calArea3"
+              name="areaCalOption"
+              value="areaCalOption1"
+            />
+            If you have length of 2 sides and included angle</label
+          >
+        </div>
+      </div>
+      <!-- 1 -->
+      <div class="form hidden">
+        <label class="label" for="base">
+          <input
+            type="number"
+            class="base"
+            placeholder="Enter base"
+            min="0.0001"
+            step="0.00001"
+            required
+          />
+        </label>
+
+        <label class="label" for="height">
+          <input
+            type="number"
+            class="height"
+            placeholder="Enter height"
+            min="0.0001"
+            step="0.00001"
+            required
+          />
+        </label>
+
+        <button class="calculate1">Calculate</button>
+
+        <h3>Calculated Area-</h3>
+        <p>Area : <span class="result1">1/2*base*height</span></p>
+      </div>
+
+      <!-- 2 -->
+      <div class="form hidden">
+        <form>
+        <label class="label" for="length1">
+          <input
+            type="number"
+            class="length1"
+            placeholder="Enter length a"
+            min="0.0001"
+            step="0.00001"
+            required
+          />
+        </label>
+
+        <label class="label" for="length2">
+          <input
+            type="number"
+            class="length2"
+            placeholder="Enter length b"
+            min="0.0001"
+            step="0.00001"
+            required
+          />
+        </label>
+
+        <label class="label" for="length3">
+          <input
+            type="number"
+            class="length3"
+            placeholder="Enter length c"
+            min="0.0001"
+            step="0.00001"
+            required
+          />
+        </label>
+
+        <button type="submit" class="calculate2">Calculate</button>
+      </form>
+        <h3>Calculated Area-</h3>
+        <p>Area : <span class="result2">√s(s-a)(s-b)(s-c) </span></p>
+      </div>
+
+      <!-- 3 -->
+      <div class="form hidden">
+        <form>
+        <label class="label" for="side1">
+          <input
+            type="number"
+            class="side1"
+            placeholder="Enter length a"
+            min="0.0001"
+            step="0.00001"
+            required
+          />
+        </label>
+
+        <label class="label" for="side2">
+          <input
+            type="number"
+            class="side2"
+            placeholder="Enter length b"
+            min="0.0001"
+            step="0.00001"
+            required
+          />
+        </label>
+
+        <label class="label" for="anglec">
+          <input
+            type="number"
+            class="anglec"
+            placeholder="Enter angle c"
+            min="0.0001"
+            step="0.00001"
+            required
+          />
+        </label>
+
+        <button type="submit" class="calculate3">Calculate</button>
+      </form>
+        <h3>Calculated Area-</h3>
+        <p>
+          Area : <span class="result3">1/2*lengthA*lengthB*sin(angleC)</span>
+        </p>
+      </div>
+    </header>
+
+    <footer class="footer container-fluid">
+      <h2 class="footer-heading">Connect with me</h2>
+      <ul class="footer-list">
+        <li class="footer-item">
+          <a class="footer-link" href="https://twitter.com/im__sabiya"
+            >Twitter</a
+          >
+        </li>
+        <li class="footer-item">
+          <a class="footer-link" href="https://www.instagram.com/im__sabiya/"
+            >Instagram</a
+          >
+        </li>
+        <li class="footer-item">
+          <a
+            class="footer-link"
+            href="https://www.linkedin.com/in/sabiyatabassum"
+            >LinkedIn</a
+          >
+        </li>
+        <li class="footer-item">
+          <a class="footer-link" href="mailto: sabiyatabassum99@gmail.com"
+            >Email</a
+          >
+        </li>
+        <li class="footer-item">
+          <a class="footer-link" href="https://github.com/sabiyatabassum"
+            >Github</a
+          >
+        </li>
+      </ul>
+    </footer>
+
+    <script src="./checkArea.js"></script>
+  </body>
+</html>
