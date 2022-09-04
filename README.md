@@ -13,13 +13,13 @@ Live Demo:  https://funwithangles.netlify.app/
 
 <br/>
 
-<img src="https://github.com/shanolhere/Fun-with-Triangles/assets/img1.png" alt="Page">
+<img src="https://github.com/shanolhere/Fun-with-Triangles/blob/main/assets/img1.png" alt="Page">
 
 <br/>
 
 <br/>
 
-<img src="https://github.com/shanolhere/Fun-with-Triangles/assets/img2.png" alt="Page">
+<img src="https://github.com/shanolhere/Fun-with-Triangles/blob/main/assets/img2.png" alt="Page">
 
 <br/>
 
