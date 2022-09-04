@@ -23,10 +23,6 @@ Live Demo:  https://funwithangles.netlify.app/
 
 <br/>
 
-##### **My Key Takeaways:**
-1. Learnt how to call APIs using JS.
-2. Done creating webapps by calling APIs.
-
 
 
 ##### **My Social Links**
